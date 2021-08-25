@@ -1,0 +1,12 @@
+{
+	"tiddlers": [
+		{
+			"file": "modules/startup/tw5-primer.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/flancast90/tw5-primer/modules/startup/tw5-primer.js",
+				"module-type": "startup"
+			}
+        }
+	]
+}
