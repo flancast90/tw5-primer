@@ -105,6 +105,10 @@ li {
 .tc-title {
     color: var(--color-scale-purple-4) !important;
 }
+
+.tc-plugin-info {
+    background-color: var(--color-bg-secondary) !important;
+}
 </style>
 ` + oldStyling;
 
