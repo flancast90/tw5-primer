@@ -1,0 +1,264 @@
+
+/* global html tag changes */
+p {
+    color: #c9d1d9 !important;
+}
+
+blockquote {
+    border-left: 5px solid #bbb !important;
+    margin-left: 25px !important;
+    padding-left: 10px !important;
+}
+
+a {
+    color: #586069 !important;
+}
+
+h3 {
+    color: lightgray !important;
+}
+
+a:hover {
+    color: #0366d6 !important;
+}
+
+h1 {
+    text-decoration: none !important;
+    color: #388bfd !important;
+}
+
+li {
+    color: #8b949e !important;
+}
+
+pre {
+    background-color: transparent !important;
+}
+
+input {
+    padding: 5px 12px !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #c9d1d9 !important;
+    vertical-align: middle !important;
+    background-color: #0d1117 !important;
+    background-repeat: no-repeat !important;
+    background-position: right 8px center !important;
+    border: 1px solid #21262d !important;
+    border-radius: 6px !important;
+    outline: none !important;
+}
+
+input:focus {
+    border-color: #388bfd !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px #0c2d6b !important;
+}
+
+svg {
+    fill: #aaaaaa !important;
+}
+
+svg:hover {
+    fill: lightgray !important;
+}
+
+
+/*
+ Override default body background color
+*/
+
+.tc-body {
+    background-color: #0d1117 !important;
+}
+
+/* header styling */
+
+.tc-menubar-list {
+    background-color: #161b22 !important;
+}
+
+/* add stuff to all tw buttons */
+
+.tc-btn-invisible:hover {
+    background-color: !important;
+    color: !important;
+}
+
+.tc-btn-invisible {
+    color: #c9d1d9 !important;
+    background-color: #21262d !important;
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1) !important;
+    transition-property: color, background-color, border-color !important;
+    position: relative !important;
+    display: inline-block !important;
+    padding: 5px 16px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    border: 1px solid #30363d !important;
+    border-radius: 6px !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+}
+
+.tc-btn-invisible:hover {
+    background-color: #30363d !important;
+    border-color: #8b949e !important;
+    transition-duration: 0.1s !important;
+}
+
+.tc-btn-invisible.tc-btn-mini:hover {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* sidebar links to not have any gray text-shadow */
+.tc-sidebar-header {
+    text-shadow: none !important;
+}
+
+.tc-sidebar-header a {
+    color:#388bfd !important;
+}
+
+/* change tag default css */
+.tc-tag-label {
+    color: #388bfd !important;
+    display: inline-block !important;
+    padding: 0 7px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    line-height: 18px !important;
+    border: 1px solid rgb(56 139 253 / 40%) !important;
+    border-radius: 2em !important;
+    background-color: transparent !important;
+}
+
+/* change tiddler background, and remove unecessary borders */
+.tc-tiddler-frame {
+    background-color: #1c2128 !important;
+    border: none !important;
+}
+
+.tc-drop-down, .tc-block-dropdown {
+    background-color: #0d1117 !important;
+}
+
+/* get rid of large X button on tag addition field */
+.tc-remove-tag-button {
+    background:transparent !important;
+    padding:0px !important;
+    border: none !important;
+}
+
+/* change backgrounds of edit fields to transparent */
+.tc-edit-fields > tbody > .tc-edit-field:nth-child(odd) {
+    background-color: transparent !important;
+}
+
+.tc-tiddler-frame .tc-edit-texteditor {
+    width: 100%;
+    margin: 4px 0 4px 0;
+    background-color: transparent !important;
+}
+
+.tc-plugin-info-dropdown, .tc-plugin-info-dropdown-body {
+    background-color: transparent !important;
+}
+
+/* Draft bar no longer red */
+.tc-tiddlylink.tc-tiddlylink-resolves {
+    background-color: #0d1117 !important;
+}
+
+.tc-tiddler-frame input.tc-edit-texteditor, .tc-tiddler-frame textarea.tc-edit-texteditor {
+    background-color: #0d1117 !important;
+    color: lightgray !important;
+}
+
+nav.tc-menubar li.tc-menubar-item > a:hover, nav.tc-menubar li.tc-menubar-item > button:hover svg, nav.tc-menubar li.tc-menubar-item > button:hover {
+    background-color: #333333 !important;
+}
+
+nav.tc-menubar li.tc-menubar-item > a.tc-selected, nav.tc-menubar li.tc-menubar-item > button.tc-selected {
+    background-color: #333333 !important;
+}
+
+.tc-link-info-item {
+    background-color: #1c2128 !important;
+}
+
+/* change default link styling */
+
+.tc-sidebar-lists a.tc-tiddlylink,  .tc-sidebar-lists a.tc-tiddlylink:hover {
+      color: #388bfd !important;
+}
+
+/* change tabset to primer tabnav */
+.tc-sidebar-lists .tc-tab-set .tc-tab-divider {
+    border-top: 1px solid #30363d !important;
+    background-image: !important;
+}
+
+.tc-tab-set {
+    margin-top: 0 !important;
+    margin-bottom: 16px !important;
+    border-bottom: 1px solid #30363d !important;
+}
+
+.tc-tab-set button {
+    display: inline-block !important;
+    flex-shrink: 0 !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    line-height: 23px !important;
+    color: #8b949e !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    border-bottom: 0 !important;
+    transition: color 0.2s cubic-bezier(0.3, 0, 0.5, 1) !important;
+}
+
+/* change selected tab to reflect current focus */
+button.tc-tab-selected {
+    color: #c9d1d9 !important;
+    background-color: #0d1117 !important;
+    border-color: #30363d !important;
+    border-radius: 6px 6px 0 0 !important;
+}
+
+/* change info boxes to primer default */
+.tc-message-box {
+    color: #79c0ff !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(rgba(56,139,253,0.1), rgba(56,139,253,0.1)) !important;
+    border-color: rgba(56,139,253,0.4) !important;
+    position: relative !important;
+    padding: 20px 16px !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 6px !important;
+}
+
+/* change misc stuff such as plugin backgrounds and wiki title */
+
+.tc-title {
+    color: #a371f7 !important;
+}
+
+.tc-plugin-info {
+    background-color: #0d1117 !important;
+}
+
+/* change edit toolbar buttons to not be so wide */
+.tc-editor-toolbar button {
+    padding:2px !important;
+}
